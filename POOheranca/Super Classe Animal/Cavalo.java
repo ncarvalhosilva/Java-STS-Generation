@@ -2,15 +2,18 @@ package POOheranca;
 
 public class Cavalo extends Animal {
 	
-	public Cavalo(String nome,int idade,String som) {
+	public Cavalo(String nome,int idade) {
 		
-		super(nome,idade,som);
+		super(nome,idade);
 		
 	}
 
 	public void movimentoCav() {
-		System.out.println("\neste animal corre");
+		System.out.println("Este animal corre");
 	}
 	
+	public void somCav() {
+		System.out.println("\nEste animal relincha");
+	}
 	
 }
